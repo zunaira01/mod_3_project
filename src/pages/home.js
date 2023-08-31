@@ -1,47 +1,65 @@
 import Header from "../components/header";
+import photo2 from "../images/image.png"
 function Home(){
     return(
         <div className="home">
             <Header/>
             <div className="home container">
-            <div className="main">
-      <div className="section">
-        <h4>Welcome Zunaira!</h4>
-<p> <strong> Discover the joy of meeting potential.</strong></p>
- <strong>Facts about me...</strong>
-   <p>STRONG MAMA, living in the moment, enjoying life, & loud type. Very, loud in fact. Looking to make new mom friends to have play dates for my kiddos.</p>
-   <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/my-favorite-people-call-me-mama-me.jpg" alt="" />
-
-
-               <h4> Favorite obessions...</h4>
-    <p> <strong> Book!! Books!! Books!! But seriously on the fun side....love trying new foods!! In love with biscoff cheesecake. A Nick Jonas fan! Action movies are the best! Amazon...a day without seeing a package on my porch is wasted.</strong>   </p>
-    
-   <h5>Current Status...</h5>
-   <p>My relationship is like a Tesla. I don't have a Tesla.</p>
-   <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHw7MNtylPO8YBxTBrRqjSjDEdqI6F9ecX2n88I7IxoKimG1VR2IzSKUbLoO36z2oQp-I&usqp=CAU" alt="" /> <b><img src="https://i0.wp.com/findawaybyjwp.com/wp-content/uploads/2022/04/My-favorite-Paulo-Coelho-quotes.jpg?resize=683%2C1024&ssl=1" alt="" /></b></p>
-
-<h6>Some of the things I dislike....well truly I only hate MATH!!! Yes, you read that right...I hate Math! Someone wise once said; "In real life, I assure you, there is no such thing as algebra.    
-    <b>-FRAN LEBOWTIZ</b>" </h6>
-   <p><img src="https://www.rd.com/wp-content/uploads/2021/10/fran-lebowitz-real-life-quote.jpg" alt="" />
-   <b><img src="https://hips.hearstapps.com/hmg-prod/images/best-quotes-ever2-1593566078.jpg" alt="" /></b></p>
-  
+            <div className="mainhome">
+            <div className="navhome">  
+        <img src={photo2} className="landingimg" alt="" />
+        <h1>Weekly Report</h1>
+            <h2>Favorite Music Artists</h2>
+            <ul>
+                <li>Metallica</li>
+                <li>Bob Marley</li>
+                <li>Madonna</li>
+                <li>The Beatles</li>
+                <li>Pink Floyd</li>
+            </ul>
+            <h2> Favorite Films</h2>
+            <ul>
+                <li>Pulp Fiction</li>
+                <li>The Godfather</li>
+                <li>The Lord of the Rings</li>
+                <li>Iron Man</li>
+                <li>Inception</li>
+            </ul>
+            <a href="https://www.meta.com/user/123">My Meta Profile</a>
       </div>
-      <div className="aside">
-        <h4> Menu </h4>
-        <ul>
+      <div className="sectionhome"> 
+         <img src="https://greatpeopleinside.com/wp-content/uploads/2017/08/workplace-diversity-1030x636.jpg" alt="" className="landingimg" />
+         <img src="https://i.pinimg.com/564x/81/fc/2a/81fc2a8111caaaa93759c44695635374.jpg" className="landingimg" alt="" />
+      </div>
+      <div className="asidehome">
+      <h1> Menu </h1>
+      <ul>
             <li><a href="/Home">Dashboard</a></li>
             <li><a href="/Photo Album">Photo Albums</a></li>
             <li><a href="/Friend List">Friends List</a></li>
             <li><a href="/Direct Messages">Messages</a></li>
             <li><a href="/Settings">Settings</a></li>
             </ul>
-        
-        <div>
-    </div>
+        <h3> About us </h3>
+        <h5> Welcome to our social media app! At CONNECT, we believe in fostering genuine connections and empowering our users to express themselves freely. Our mission is to create a safe, inclusive, and vibrant online community where individuals from diverse backgrounds can connect. Together, let's build a brighter and more connected world. #ConnectInspireThrive</h5>
+
+        <h3> Contact Us </h3>
+        <p>2525 North High Ave, San Jose, CA 96593</p>
+        <p>Need Help? E-mail Us at CONNECT@social.org or Call US at 889-569-8745</p>
+        {/* <h2> Menu </h2> */}
+        {/* <ul>
+            <li><a href="/Home">Dashboard</a></li>
+            <li><a href="/Photo Album">Photo Albums</a></li>
+            <li><a href="/Friend List">Friends List</a></li>
+            <li><a href="/Direct Messages">Messages</a></li>
+            <li><a href="/Settings">Settings</a></li>
+            </ul>
+         */}
       </div>
-    </ div>
+    </div>
+     </div>
             </div>
-        </div>
     )
 }
 export default Home;
+

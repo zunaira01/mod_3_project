@@ -1,0 +1,16 @@
+.user-auth {
+    font-size: 2rem;
+    color: var(--text-dark);
+    text-align: center;
+  }
+  
+  .user-auth .email {
+    font-size: smaller;
+  }
+  
+  .user-auth .auth-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }

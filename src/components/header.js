@@ -1,28 +1,33 @@
 import Nav from "./nav";
-/**Page header */
+import { Link } from "react-router-dom";
 function Header(props){
     return(
         <header className="header">
-          
-            <h1>ZUPRO Social Media</h1>
-            <div>
-            <h2> Think, Explore, Meet.</h2>
+            <h1> Connect </h1>
+            <div >
+            <h3 className="header button">Think, Explore, Meet!
+            {/* <button><Link to="/">HOME</Link></button> */}
+            <br></br>
+            <button><Link to="/">Home</Link></button>
+           
+        <button><Link to="/profile">myProfile</Link></button>
+     
+        <button><Link to="/profile">myFriends</Link></button>
+            </h3>
             <Nav/>
             </div>
         </header>
-
     );
-
 }
-
 export default Header;
+
 
 // import Nav from "./nav";
 // import { Link } from "react-router-dom";
 // function Header(props){
 //     return(
 //         <header className="header">
-//             <h1> ZUPRO Social media </h1>
+//             <h1> Connect Social media </h1>
 //             <div >
 //             <h2 className="header button">Think, Explore, Meet!
 //             <button><Link to="/">HOME</Link></button>

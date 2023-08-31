@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
   return (
     <div className="nav">
       <nav>
-        <button className="b1"><Link to="/login">LOGIN</Link></button>
-        <button><Link to="/registerform">REGISTER</Link></button>
+        <button className="b1"><Link to="/loginform">LOGIN</Link></button>
+        <button><Link to="/signupform">REGISTER</Link></button>
       </nav>
     </div>
   );
